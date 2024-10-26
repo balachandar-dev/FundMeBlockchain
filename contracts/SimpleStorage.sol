@@ -18,7 +18,11 @@ contract SimpleStorage {
         return peopleList[index];
     }
 
-    function deleteAtIndex(uint256 index) public {
+    function getPersonName(uint256 index) public  view returns (string memory) {
+        return  peopleList[index].name;
+    }
+
+    function deleteAtIndex(uint256 index) public virtual {
         if (peopleList.length > index) {
         delete peopleList[index];
         }
