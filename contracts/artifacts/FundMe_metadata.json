@@ -6,99 +6,20 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "addPeople",
+				"inputs": [],
+				"name": "fund",
 				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
-					}
-				],
-				"name": "deleteAtIndex",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getCount",
+				"name": "minimumUsd",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "index",
-						"type": "uint256"
-					}
-				],
-				"name": "getPeople",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "uint256",
-								"name": "id",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							}
-						],
-						"internalType": "struct FundMe.People",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "peopleList",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "id",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "name",
-						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -133,11 +54,11 @@
 	},
 	"sources": {
 		"contracts/FundMe.sol": {
-			"keccak256": "0xea972474031ac7307d2eddab23577f90ea9046c646510bb4ac186eb7dbb9ad7e",
+			"keccak256": "0x8a1a97d9a98f66f6d58d2500a2690dd45dc4e6a547feb933e599a7731e976371",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7f7a5cc8c4003a9197c17b96f38feec8544202e23cc42b8a25c9c6e7ab88cef0",
-				"dweb:/ipfs/QmR9fTAYyR5VS7ZQ41bWEGrofhvX5A7cUkEE2TmuzeUiBL"
+				"bzz-raw://148efb626b977cc59e685551d78a01977eed9fa24f12b50108f93922de23a61a",
+				"dweb:/ipfs/QmTeg2RK5mf41rayfSLG4rboHm7wrJ9gBG4CesvC1zf9Ei"
 			]
 		}
 	},
