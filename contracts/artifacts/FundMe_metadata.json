@@ -62,6 +62,13 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -100,11 +107,11 @@
 			]
 		},
 		"contracts/FundMe.sol": {
-			"keccak256": "0x36c64a1b8b233f6f47e4ecf5c941827dc3aa2e346add52f6129ac9099ba7525f",
+			"keccak256": "0xd4985bb2dfcab6475e306e1627ab4c507a67df8dc8576ca1b19b5ea1b201881f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://051538dc675b0378e211e9a94f1d4e0b3ab1163f3838a3a04ec109719ca23979",
-				"dweb:/ipfs/QmepVVZVjcooJUNFg7xXMJWcjreNrBhf8kvXvYzksEFKcT"
+				"bzz-raw://ea716fc9b211cc2f962d26c356d02bde3395eccb8f86ce0786bbdce6a0ef472c",
+				"dweb:/ipfs/QmXABrNFiMbX2wCwapSQLnMdXfKo2nTCiZMCQkEd1JLPK6"
 			]
 		},
 		"contracts/PriceConvertor.sol": {
