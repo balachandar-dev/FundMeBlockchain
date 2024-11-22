@@ -44,6 +44,14 @@ contract FundMe {
 
     }
 
+    receive() external payable { 
+        fund();
+    }
+
+    fallback() external payable {
+        fund();
+     }
+
     modifier onlyOwner() {
         // require(msg.sender == i_owner, "Sender is not owner");
         if(msg.sender != i_owner) { revert NotOwner(); }
